@@ -590,11 +590,7 @@ ORDER BY avg_performance_score DESC;
 15. Salary Band Classification
 
 Create salary bands:
-Low, Medium, High, Executive
-
-Use:
-CASE WHEN + percentile logic
-*/
+Low, Medium, High, Executive */
 
 WITH salary_percentile AS (
     SELECT
